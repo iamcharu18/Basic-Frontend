@@ -22,5 +22,5 @@ This repository contains basic projects done by me using HTML, CSS and Bootstrap
 ### 6 Portfolio Site
 ![](https://github.com/iamcharu18/Basic-Frontend/blob/main/6%20Portfolio%20Site/screen-capture%20(2).gif)
 
-### 4 Food Munch Site
+### 7 Food Munch Site
 ![](https://github.com/iamcharu18/Basic-Frontend/blob/main/7%20Food%20Munch/screen-capture%20(3).gif)
