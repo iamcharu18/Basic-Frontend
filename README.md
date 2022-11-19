@@ -25,5 +25,5 @@ This repository contains basic projects done by me using HTML, CSS and Bootstrap
 ### 7 Food Munch Site
 ![](https://github.com/iamcharu18/Basic-Frontend/blob/main/7%20Food%20Munch/screen-capture%20(3).gif)
 
-### 8 Omniffod
+### 8 Omnifood
 ![](https://github.com/iamcharu18/Basic-Frontend/blob/main/8%20Omnifood/Omnifood%20Demo.gif)
