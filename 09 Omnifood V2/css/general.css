@@ -24,9 +24,9 @@ Paragraph: 1.6
 - Primary: #e67e22
 
 - Tints:#fdf2e9, #fae5d3
-- Shades:#cf711f
+- Shades:#cf711f, #eb984e,#45260a
 - Accents:
-- Greys: #555, #333, #888, #6f6f6f (lightest grey allowed on #fdf2e9)
+- Greys: #555, #333, #888,#767676, #6f6f6f (lightest grey allowed on #fdf2e9)
 
 #51cf66
 
@@ -93,6 +93,10 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
     align-items: center;
 }
@@ -133,6 +137,7 @@ body {
     margin-bottom: 3.2rem;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -141,6 +146,10 @@ body {
     text-decoration: none;
     padding: 1.6rem 3.2rem;
     border-radius: 0.9rem;
+
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
     transition: all 0.3s;
 }
 
@@ -165,6 +174,18 @@ body {
 .btn--outline:active {
     background-color: #fdf2e9;
     box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--form {
+    background-color: #45260a;
+    color: #fdf2e9;
+    align-self: end;
+    padding: 1.2rem;
+}
+
+.btn--form:hover {
+    background-color: #fff;
+    color: #555;
 }
 
 .link:link,
@@ -201,6 +222,11 @@ body {
     width: 3rem;
     height: 3rem;
     color: #e67e22;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 /* HELPER/SETTING CLASSES */
