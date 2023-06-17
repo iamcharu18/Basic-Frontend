@@ -10,7 +10,7 @@ Define WHAT the website is for -
     User goal: Eating well effortlessly, without spending a lot of time and money
 
 Define TARGET audience -
-    Busy people who lik technology, are interested in a healthy diet and have a well-paying job
+    Busy people who like technology, are interested in a healthy diet and have a well-paying job
 
 
 ## Plan the Project
